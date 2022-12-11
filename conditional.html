@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conditional statements</title>
+</head>
+<body>
+    <p id="test"></p>
+    <script type="text/javascript">
+
+        var marks = 90;
+        var decission;
+        
+        if(marks >= 80){
+            decission = "A grade"
+        }
+        else if(marks >= 60 && marks < 80){
+            decission = "B grade"
+        }
+        else{
+            decission = "C grade"
+        }
+        document.getElementById('test').innerHTML = decission;
+
+    </script>
+    
+</body>
+</html>
